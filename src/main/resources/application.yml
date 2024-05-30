@@ -1,0 +1,8 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+app:
+  kafka:
+    newOrdersTopic: "new_orders"
+    payedOrdersTopic: "payed_orders"
+    groupId: "payment-group"
